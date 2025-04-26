@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Rap Bot</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+  <nav class="bg-black text-white p-4">
+    <a href="/" class="font-bold text-xl">Rap Bot</a>
+    <a href="/library" class="ml-4">Library</a>
+  </nav>
+  <main class="container mx-auto p-6 flex-grow">
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
